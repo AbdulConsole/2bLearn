@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course List</title>
+    <!--<link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>-->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      nav {
+        min-height: 50px;
+        width: 100vw;
+        background-color: hsla(0, 0%, 63%);
+        color: hsla(200, 0%, 100%);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 50px;
+        /*box-shadow: 1px 2px 8px #888;*/
+        margin-bottom: 40px;
+      }
+      .brand, .menu {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+    </style>
+</head>
+<body>
+    <nav>
+      <div class="brand">2b-learn</div>
+      <div class="menu">menu</div>
+    </nav>
+  
+    <!--<header>
+        <nav>
+            <ul>
+                <li><a href="/instructors">Instructor Page</a></li>
+                <li><a href="/students">Students Page</a></li>
+            </ul>
+        </nav>
+    </header>-->
+
+    <main>
+        <h1>Available Courses</h1>
+        <div id="coursesContainer"></div>
+    </main>
+</body>
+</html>
