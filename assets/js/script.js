@@ -29,7 +29,8 @@ document.querySelector('.openFaq').addEventListener('click', () => {
 });
 
 document.querySelector('.btn-primary').addEventListener('click', () => {
-  alert('app is under development, bear with us.')
+  alert('app is under development, bear with us.');
+  window.open("/quiz/index.html");
 });
 
 
